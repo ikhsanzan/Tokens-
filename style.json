@@ -1,16 +1,20 @@
 {
   "Primitive Colors/Mode 1": {
-    "Black & White": {
-      "White": {
+    "global": {
+      "white": {
         "$type": "color",
         "$value": "#ffffff"
       },
-      "Black": {
+      "black": {
         "$type": "color",
         "$value": "#000000"
+      },
+      "effect": {
+        "$type": "color",
+        "$value": "#f2403840"
       }
     },
-    "Primary": {
+    "primary": {
       "100": {
         "$type": "color",
         "$value": "#ffe9e9"
@@ -32,7 +36,7 @@
         "$value": "#a60808"
       }
     },
-    "Neutral": {
+    "neutral": {
       "100": {
         "$type": "color",
         "$value": "#f0f3fb"
@@ -53,51 +57,55 @@
         "$type": "color",
         "$value": "#2b2f3c"
       }
-    },
-    "global": {
-      "white": {
-        "$type": "color",
-        "$value": "#ffffff"
-      },
-      "black": {
-        "$type": "color",
-        "$value": "#000000"
-      },
-      "effect": {
-        "$type": "color",
-        "$value": "#f2403840"
-      }
     }
   },
   "Semantic Token/Mode 1": {
-    "Primary": {
-      "Ultrasoft": {
+    "primary": {
+      "ultrasoft": {
         "$type": "color",
-        "$value": "{Primary.100}"
+        "$value": "{primary.100}"
       },
-      "Soft": {
+      "soft": {
         "$type": "color",
-        "$value": "{Primary.200}"
+        "$value": "{primary.200}"
       },
-      "Medium": {
+      "medium": {
         "$type": "color",
-        "$value": "{Primary.300}"
+        "$value": "{primary.300}"
       },
-      "Hard": {
+      "hard": {
         "$type": "color",
-        "$value": "{Primary.400}"
+        "$value": "{primary.400}"
       },
-      "Dark": {
+      "dark": {
         "$type": "color",
-        "$value": "{Primary.500}"
+        "$value": "{primary.500}"
+      }
+    },
+    "neutral": {
+      "dark": {
+        "$type": "color",
+        "$value": "{neutral.500}"
+      },
+      "dark-grey": {
+        "$type": "color",
+        "$value": "{neutral.400}"
+      },
+      "medium": {
+        "$type": "color",
+        "$value": "{neutral.300}"
+      },
+      "soft": {
+        "$type": "color",
+        "$value": "{neutral.200}"
+      },
+      "ultrasoft": {
+        "$type": "color",
+        "$value": "{neutral.100}"
       }
     }
   },
   "Component Specific Token/Mode 1": {
-    "text-dark": {
-      "$type": "color",
-      "$value": "{Primary.Dark}"
-    },
     "text": {
       "text-dark": {
         "$type": "color",
@@ -121,18 +129,6 @@
       }
     },
     "button": {
-      "button-bg-primary-default": {
-        "$type": "color",
-        "$value": "{primary.dark}"
-      },
-      "button-bg-primary-hover": {
-        "$type": "color",
-        "$value": "{primary.hard}"
-      },
-      "button-bg-primary-disabled": {
-        "$type": "color",
-        "$value": "{neutral.medium}"
-      },
       "primary": {
         "button-bg-default": {
           "$type": "color",
