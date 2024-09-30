@@ -67,50 +67,6 @@
         "$type": "color",
         "$value": "#f2403840"
       }
-    },
-    "primary": {
-      "100": {
-        "$type": "color",
-        "$value": "#ffe9e9"
-      },
-      "200": {
-        "$type": "color",
-        "$value": "#ffbab9"
-      },
-      "300": {
-        "$type": "color",
-        "$value": "#ff7774"
-      },
-      "400": {
-        "$type": "color",
-        "$value": "#dc241f"
-      },
-      "500": {
-        "$type": "color",
-        "$value": "#a60808"
-      }
-    },
-    "neutral": {
-      "100": {
-        "$type": "color",
-        "$value": "#f0f3fb"
-      },
-      "200": {
-        "$type": "color",
-        "$value": "#d4ddf0"
-      },
-      "300": {
-        "$type": "color",
-        "$value": "#a5b4da"
-      },
-      "400": {
-        "$type": "color",
-        "$value": "#727c98"
-      },
-      "500": {
-        "$type": "color",
-        "$value": "#2b2f3c"
-      }
     }
   },
   "Semantic Token/Mode 1": {
@@ -134,50 +90,6 @@
       "Dark": {
         "$type": "color",
         "$value": "{Primary.500}"
-      }
-    },
-    "primary": {
-      "ultrasoft": {
-        "$type": "color",
-        "$value": "{primary.100}"
-      },
-      "soft": {
-        "$type": "color",
-        "$value": "{primary.200}"
-      },
-      "medium": {
-        "$type": "color",
-        "$value": "{primary.300}"
-      },
-      "hard": {
-        "$type": "color",
-        "$value": "{primary.400}"
-      },
-      "dark": {
-        "$type": "color",
-        "$value": "{primary.500}"
-      }
-    },
-    "neutral": {
-      "dark": {
-        "$type": "color",
-        "$value": "{neutral.500}"
-      },
-      "dark-grey": {
-        "$type": "color",
-        "$value": "{neutral.400}"
-      },
-      "medium": {
-        "$type": "color",
-        "$value": "{neutral.300}"
-      },
-      "soft": {
-        "$type": "color",
-        "$value": "{neutral.200}"
-      },
-      "ultrasoft": {
-        "$type": "color",
-        "$value": "{neutral.100}"
       }
     }
   },
