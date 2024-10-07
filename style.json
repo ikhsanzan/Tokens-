@@ -757,7 +757,7 @@
       },
       "4": {
         "$type": "fontSizes",
-        "$value": "12"
+        "$value": "12px"
       },
       "5": {
         "$type": "fontSizes",
@@ -806,6 +806,10 @@
       "16": {
         "$type": "fontSizes",
         "$value": "72"
+      },
+      "56": {
+        "$type": "fontSizes",
+        "$value": "56px"
       }
     },
     "letterSpacing": {
