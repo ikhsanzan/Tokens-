@@ -709,7 +709,7 @@
       },
       "56": {
         "$type": "lineHeights",
-        "$value": "56"
+        "$value": "56px"
       }
     },
     "fontWeights": {
@@ -838,7 +838,7 @@
         "$value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{fontWeights.roboto-0}",
-          "lineHeight": "{lineHeights.0}",
+          "lineHeight": "{lineHeights.56}",
           "fontSize": "{fontSize.13}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
