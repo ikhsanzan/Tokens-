@@ -645,7 +645,7 @@
       },
       "1": {
         "$type": "lineHeights",
-        "$value": "12"
+        "$value": "12px"
       },
       "2": {
         "$type": "lineHeights",
@@ -706,6 +706,10 @@
       "16": {
         "$type": "lineHeights",
         "$value": "58"
+      },
+      "56": {
+        "$type": "lineHeights",
+        "$value": "56"
       }
     },
     "fontWeights": {
@@ -757,7 +761,7 @@
       },
       "4": {
         "$type": "fontSizes",
-        "$value": "12px"
+        "$value": "12"
       },
       "5": {
         "$type": "fontSizes",
@@ -806,10 +810,6 @@
       "16": {
         "$type": "fontSizes",
         "$value": "72"
-      },
-      "56": {
-        "$type": "fontSizes",
-        "$value": "56px"
       }
     },
     "letterSpacing": {
