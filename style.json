@@ -289,15 +289,15 @@
       },
       "1": {
         "$type": "lineHeights",
-        "$value": "74"
+        "$value": "74px"
       },
       "2": {
         "$type": "lineHeights",
-        "$value": "58"
+        "$value": "58px"
       },
       "3": {
         "$type": "lineHeights",
-        "$value": "56"
+        "$value": "56px"
       },
       "4": {
         "$type": "lineHeights",
