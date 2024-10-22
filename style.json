@@ -276,12 +276,6 @@
         }
       }
     },
-    "fontFamilies": {
-      "roboto": {
-        "$type": "fontFamilies",
-        "$value": "Roboto"
-      }
-    },
     "lineHeights": {
       "0": {
         "$type": "lineHeights",
@@ -289,15 +283,15 @@
       },
       "1": {
         "$type": "lineHeights",
-        "$value": "74px"
+        "$value": "74"
       },
       "2": {
         "$type": "lineHeights",
-        "$value": "58px"
+        "$value": "58"
       },
       "3": {
         "$type": "lineHeights",
-        "$value": "56px"
+        "$value": "56"
       },
       "4": {
         "$type": "lineHeights",
@@ -356,88 +350,6 @@
       "roboto-3": {
         "$type": "fontWeights",
         "$value": "Medium"
-      }
-    },
-    "fontSize": {
-      "0": {
-        "$type": "fontSizes",
-        "$value": "10"
-      },
-      "1": {
-        "$type": "fontSizes",
-        "$value": "12"
-      },
-      "2": {
-        "$type": "fontSizes",
-        "$value": "14"
-      },
-      "3": {
-        "$type": "fontSizes",
-        "$value": "16"
-      },
-      "4": {
-        "$type": "fontSizes",
-        "$value": "18"
-      },
-      "5": {
-        "$type": "fontSizes",
-        "$value": "20"
-      },
-      "6": {
-        "$type": "fontSizes",
-        "$value": "24"
-      },
-      "7": {
-        "$type": "fontSizes",
-        "$value": "28"
-      },
-      "8": {
-        "$type": "fontSizes",
-        "$value": "32"
-      },
-      "9": {
-        "$type": "fontSizes",
-        "$value": "36"
-      },
-      "10": {
-        "$type": "fontSizes",
-        "$value": "40"
-      },
-      "11": {
-        "$type": "fontSizes",
-        "$value": "48"
-      },
-      "12": {
-        "$type": "fontSizes",
-        "$value": "60"
-      },
-      "13": {
-        "$type": "fontSizes",
-        "$value": "72"
-      }
-    },
-    "letterSpacing": {
-      "0": {
-        "$type": "letterSpacing",
-        "$value": "-1%"
-      },
-      "1": {
-        "$type": "letterSpacing",
-        "$value": "-2%"
-      },
-      "2": {
-        "$type": "letterSpacing",
-        "$value": "0.5%"
-      },
-      "3": {
-        "$type": "letterSpacing",
-        "$value": "0%"
-      }
-    },
-    "paragraphSpacing": {
-      "0": {
-        "$type": "paragraphSpacing",
-        "$value": "0"
       }
     },
     "Display": {
@@ -848,6 +760,100 @@
         }
       }
     },
+    "textDecoration": {
+      "none": {
+        "$type": "textDecoration",
+        "$value": "none"
+      }
+    },
+    "fontFamilies": {
+      "roboto": {
+        "$type": "fontFamilies",
+        "$value": "Roboto"
+      }
+    },
+    "fontSize": {
+      "0": {
+        "$type": "fontSizes",
+        "$value": "10"
+      },
+      "1": {
+        "$type": "fontSizes",
+        "$value": "12"
+      },
+      "2": {
+        "$type": "fontSizes",
+        "$value": "14"
+      },
+      "3": {
+        "$type": "fontSizes",
+        "$value": "16"
+      },
+      "4": {
+        "$type": "fontSizes",
+        "$value": "18"
+      },
+      "5": {
+        "$type": "fontSizes",
+        "$value": "20"
+      },
+      "6": {
+        "$type": "fontSizes",
+        "$value": "24"
+      },
+      "7": {
+        "$type": "fontSizes",
+        "$value": "28"
+      },
+      "8": {
+        "$type": "fontSizes",
+        "$value": "32"
+      },
+      "9": {
+        "$type": "fontSizes",
+        "$value": "36"
+      },
+      "10": {
+        "$type": "fontSizes",
+        "$value": "40"
+      },
+      "11": {
+        "$type": "fontSizes",
+        "$value": "48"
+      },
+      "12": {
+        "$type": "fontSizes",
+        "$value": "60"
+      },
+      "13": {
+        "$type": "fontSizes",
+        "$value": "72"
+      }
+    },
+    "letterSpacing": {
+      "0": {
+        "$type": "letterSpacing",
+        "$value": "-1%"
+      },
+      "1": {
+        "$type": "letterSpacing",
+        "$value": "-2%"
+      },
+      "2": {
+        "$type": "letterSpacing",
+        "$value": "0.5%"
+      },
+      "3": {
+        "$type": "letterSpacing",
+        "$value": "0%"
+      }
+    },
+    "paragraphSpacing": {
+      "0": {
+        "$type": "paragraphSpacing",
+        "$value": "0"
+      }
+    },
     "text-3xl": {
       "reguler": {
         "$type": "typography",
@@ -913,12 +919,6 @@
       },
       "none": {
         "$type": "textCase",
-        "$value": "none"
-      }
-    },
-    "textDecoration": {
-      "none": {
-        "$type": "textDecoration",
         "$value": "none"
       }
     },
@@ -2621,126 +2621,126 @@
           "$value": "0.75rem"
         },
         "xxs": {
-          "$type": "number",
-          "$value": 14
+          "$type": "dimension",
+          "$value": "0.875rem"
         },
         "xs": {
-          "$type": "number",
-          "$value": 18
+          "$type": "dimension",
+          "$value": "1.125rem"
         },
         "sm": {
-          "$type": "number",
-          "$value": 20
+          "$type": "dimension",
+          "$value": "1.25rem"
         },
         "md": {
-          "$type": "number",
-          "$value": 24
+          "$type": "dimension",
+          "$value": "1.5rem"
         },
         "lg": {
-          "$type": "number",
-          "$value": 26
+          "$type": "dimension",
+          "$value": "1.625rem"
         },
         "xl": {
-          "$type": "number",
-          "$value": 28
+          "$type": "dimension",
+          "$value": "1.75rem"
         },
         "2xl": {
-          "$type": "number",
-          "$value": 30
+          "$type": "dimension",
+          "$value": "1.875rem"
         },
         "4xl": {
-          "$type": "number",
-          "$value": 36
+          "$type": "dimension",
+          "$value": "2.25rem"
         },
         "5xl": {
-          "$type": "number",
-          "$value": 46
+          "$type": "dimension",
+          "$value": "2.875rem"
         },
         "6xl": {
-          "$type": "number",
-          "$value": 50
+          "$type": "dimension",
+          "$value": "3.125rem"
         },
         "7xl": {
-          "$type": "number",
-          "$value": 56
+          "$type": "dimension",
+          "$value": "3.5rem"
         },
         "8xl": {
-          "$type": "number",
-          "$value": 58
+          "$type": "dimension",
+          "$value": "3.625rem"
         },
         "9xl": {
-          "$type": "number",
-          "$value": 74
+          "$type": "dimension",
+          "$value": "4.625rem"
         },
         "10xl": {
-          "$type": "number",
-          "$value": 88
+          "$type": "dimension",
+          "$value": "5.5rem"
         },
         "3xl": {
-          "$type": "number",
-          "$value": 32
+          "$type": "dimension",
+          "$value": "2rem"
         }
       },
       "size": {
         "xs": {
-          "$type": "number",
-          "$value": 12
+          "$type": "dimension",
+          "$value": "0.75rem"
         },
         "xxs": {
-          "$type": "number",
-          "$value": 10
+          "$type": "dimension",
+          "$value": "0.625rem"
         },
         "sm": {
-          "$type": "number",
-          "$value": 14
+          "$type": "dimension",
+          "$value": "0.875rem"
         },
         "md": {
-          "$type": "number",
-          "$value": 16
+          "$type": "dimension",
+          "$value": "1rem"
         },
         "lg": {
-          "$type": "number",
-          "$value": 18
+          "$type": "dimension",
+          "$value": "1.125rem"
         },
         "xl": {
-          "$type": "number",
-          "$value": 20
+          "$type": "dimension",
+          "$value": "1.25rem"
         },
         "3xl": {
-          "$type": "number",
-          "$value": 24
+          "$type": "dimension",
+          "$value": "1.5rem"
         },
         "4xl": {
-          "$type": "number",
-          "$value": 28
+          "$type": "dimension",
+          "$value": "1.75rem"
         },
         "5xl": {
-          "$type": "number",
-          "$value": 32
+          "$type": "dimension",
+          "$value": "2rem"
         },
         "6xl": {
-          "$type": "number",
-          "$value": 36
+          "$type": "dimension",
+          "$value": "2.25rem"
         },
         "7xl": {
-          "$type": "number",
-          "$value": 40
+          "$type": "dimension",
+          "$value": "2.5rem"
         },
         "8xl": {
-          "$type": "number",
-          "$value": 48
+          "$type": "dimension",
+          "$value": "3rem"
         },
         "9xl": {
-          "$type": "number",
-          "$value": 60
+          "$type": "dimension",
+          "$value": "3.75rem"
         },
         "10xl": {
-          "$type": "number",
-          "$value": 72
+          "$type": "dimension",
+          "$value": "4.5rem"
         },
         "2xl": {
-          "$type": "number",
-          "$value": 22
+          "$type": "dimension",
+          "$value": "1.375rem"
         }
       }
     },
@@ -3014,16 +3014,16 @@
     },
     "space": {
       "0": {
-        "$type": "number",
-        "$value": 0
+        "$type": "dimension",
+        "$value": "0rem"
       },
       "1": {
-        "$type": "number",
-        "$value": 2
+        "$type": "dimension",
+        "$value": "0.125rem"
       },
       "px": {
-        "$type": "number",
-        "$value": 1
+        "$type": "dimension",
+        "$value": "0.0625rem"
       }
     }
   },
